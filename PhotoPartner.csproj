@@ -130,8 +130,12 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Magick.NET-Q16-x64" Version="13.7.0" />
+      <PackageReference Include="SixLabors.Fonts" Version="1.0.1" />
       <PackageReference Include="SixLabors.ImageSharp" Version="2.1.8" />
       <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="lib\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>
